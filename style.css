@@ -1,0 +1,60 @@
+body {
+    font-family: 'Kanit', sans-serif;
+    background-color: #ffe6e6;
+}
+
+.card {
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 800px;
+}
+
+h2 {
+    color: #ff6699;
+    font-weight: 600;
+}
+
+.text-muted {
+    font-weight: 400;
+    color: #ff99bb;
+}
+
+.btn-primary {
+    background-color: #ff6699;
+    border-color: #ff6699;
+}
+
+.btn-primary:hover {
+    background-color: #ff3366;
+    border-color: #ff3366;
+}
+
+.btn-warning {
+    background-color: #ffcc66;
+    border-color: #ffcc66;
+    color: #fff;
+}
+
+.btn-warning:hover {
+    background-color: #ffaa33;
+    border-color: #ffaa33;
+}
+
+
+/* Media 768px */
+
+@media (max-width: 768px) {
+    .card {
+        padding: 20px;
+    }
+}
+
+
+/* Media 576px */
+
+@media (max-width: 576px) {
+    .card {
+        padding: 10px;
+        max-width: 95%;
+    }
+}
